@@ -15,60 +15,60 @@ sqa_criteria:
     repos:
       github.com/nodejs/node git:
         commands:
-        - /usr/bin/env sh .sqa/script.boozy-plum-squirt.sh
-        container: qc.acc_slimy-gold-gharial
+        - /usr/bin/env sh .sqa/script.craggy-salmon-oriole.sh
+        container: qc.acc_slaphappy-rust-panda
   QC.Doc:
     repos:
       github.com/nodejs/node find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.shaky-heliotrope-spaniel.sh
-        container: qc.doc_homely-thistle-snail
+        - /usr/bin/env sh .sqa/script.skinny-lilac-bear.sh
+        container: qc.doc_geeky-pink-flamingo
       github.com/nodejs/node git:
         commands:
-        - /usr/bin/env sh .sqa/script.beady-bronze-bison.sh
-        container: qc.doc_sickly-wheat-tetra
+        - /usr/bin/env sh .sqa/script.smelly-ultramarine-snake.sh
+        container: qc.doc_homely-champagne-russel
       github.com/nodejs/node markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.gloppy-eggplant-owl.sh
-        container: qc.doc_stuffy-crimson-terrier
+        - /usr/bin/env sh .sqa/script.tacky-auburn-spitz.sh
+        container: qc.doc_silly-cinnamon-peccary
       github.com/nodejs/node restructuredtext-lint:
         commands:
-        - /usr/bin/env sh .sqa/script.foggy-purple-dodo.sh
-        container: qc.doc_squeaky-copper-centipede
+        - /usr/bin/env sh .sqa/script.homey-maroon-tetra.sh
+        container: qc.doc_ugly-lilac-seal
   QC.Lic:
     repos:
       github.com/nodejs/node licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.flaky-ruby-moth.sh
-        container: qc.lic_jumpy-silver-bloodhound
+        - /usr/bin/env sh .sqa/script.gimpy-malachite-quoll.sh
+        container: qc.lic_muzzy-cream-quetzal
   QC.Sec:
     repos:
       github.com/nodejs/node bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.snazzy-black-frigatebird.sh
-        container: qc.sec_shabby-corn-quoll
+        - /usr/bin/env sh .sqa/script.gamy-green-argentino.sh
+        container: qc.sec_whiny-plum-vole
   QC.Sty:
     repos:
       github.com/nodejs/node flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.snazzy-salmon-scorpion.sh
-        container: qc.sty_cheeky-ecru-dodo
+        - /usr/bin/env sh .sqa/script.chewy-black-owl.sh
+        container: qc.sty_tacky-razzmatazz-saola
       github.com/nodejs/node hadolint:
         commands:
-        - /usr/bin/env sh .sqa/script.droopy-zucchini-akita.sh
-        container: qc.sty_frumpy-sepia-binturong
+        - /usr/bin/env sh .sqa/script.leaky-amaranth-cattle.sh
+        container: qc.sty_gloppy-russet-capybara
       github.com/nodejs/node jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.scanty-cinnamon-wolfhound.sh
-        container: qc.sty_randy-thistle-mule
+        - /usr/bin/env sh .sqa/script.stinky-flax-clam.sh
+        container: qc.sty_ready-periwinkle-pinscher
       github.com/nodejs/node rubocop:
         commands:
-        - /usr/bin/env sh .sqa/script.zippy-goldenrod-bird.sh
-        container: qc.sty_cloudy-myrtle-mayfly
+        - /usr/bin/env sh .sqa/script.greasy-turquoise-salamander.sh
+        container: qc.sty_chewy-bronze-moose
   QC.Ver:
     repos:
       github.com/nodejs/node get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.woolly-burgundy-fossa.sh
-        container: qc.ver_lovely-brass-eel
+        - /usr/bin/env sh .sqa/script.shaggy-amaranth-mayfly.sh
+        container: qc.ver_squirrely-lavender-tarsier
 timeout: 5400
